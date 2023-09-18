@@ -2,7 +2,7 @@ import { FC, useState } from 'react'
 import './App.css'
 
 import Button from '@mui/material/Button';
-import ReactSuspense from '@components/ReactSuspense'
+import ReactSuspense from './components/ReactSuspense'
 
 interface PropsTypes {
   setShow: (show: boolean) => void

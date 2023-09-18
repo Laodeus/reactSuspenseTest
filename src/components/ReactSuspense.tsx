@@ -1,6 +1,6 @@
 import { FC, Suspense } from 'react'
-import LazyTest from '@components/LazyTest'
-import Loading from '@components/Loading'
+import LazyTest from './LazyTest'
+import Loading from './Loading'
 
 const ReactSuspense: FC = () => {
     return (
